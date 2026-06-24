@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/azmahboub/Pipeline-CI_CD.git',
+                    url: 'https://github.com/azmahboub/lab_-AutomatisationGit.git',
                     credentialsId: 'github-Token'
             }
         }
